@@ -1,0 +1,15 @@
+{
+    "name": "template/adminrole",
+    "autoload": {
+        "psr-4": {
+            "Template\\Adminrole\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yughoz",
+            "email": "alvianyusuf22@gmail.com"
+        }
+    ],
+    "require": {}
+}

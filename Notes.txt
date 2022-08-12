@@ -1,0 +1,30 @@
+Add config/App.php'
+providers' => 
+
+Template\Adminrole\Providers\AdminpackageProvider::class,
+
+
+composer.json
+"Template\\Adminrole\\": "packages/template/adminrole/src"
+
+
+
+composer dump-autoload
+open localhost/init
+
+
+
+
+
+====================================
+
+
+php artisan adminlte:install
+composer require laravel/jetstream
+composer require laravel/sanctum
+
+php artisan jetstream:install livewire
+npm install && npm run dev
+
+composer require emmanuel/livewire-datatable-bs4
+php artisan vendor:publish --tag="livewire-datatable-bs4"
